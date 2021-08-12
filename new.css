@@ -1,0 +1,435 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    /* font-size: url(https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=STIX+Two+Text:ital,wght@0,500;0,600;1,400;1,500&display=swap); */
+    /* backgCround-image: url(https://www.pandotrip.com/wp-content/uploads/2018/09/Seigantoji-Pagoda-and-Nachi-Falls-in-Nacho-Japan.jpg); */
+    font-family: 'Hahmlet', serif;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  margin-left: 50px;
+  display: block;
+  color: rgb(8, 7, 7);
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+li a::after{
+  content: '';
+  width: 0%;
+  height: 4px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+li a:hover::after{
+  width: 100%;
+}
+
+
+
+.logo-img{
+    float: left;
+    position: relative;
+    height: 60px;
+    width: 80px;
+    border-radius: 100%;
+    margin-left: 10px;
+    
+}
+
+.bg-div{
+   overflow: hidden;
+   height: 800px;
+   /* background-color: rgb(29, 167, 121); */
+   background-image: url(https://www.searchurcollege.com/exam/admin/search/gallery/gallery_760_4524.jpg);
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search{
+  padding-top: 10px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+  font-size: large;
+  font-size: 15px;
+  border: 3px solid rgb(7, 6, 6);
+  margin-left: 170px;
+  display: inline-block;
+
+
+}
+.submit{
+  
+  display: inline-block;
+color: rgb(248, 244, 244);
+background-color: rgb(14, 13, 11);
+text-align: center;
+padding: 8px 30px;
+text-decoration: none;
+margin: 15px;
+margin-top: 0px;
+border: 3px solid rgb(212, 195, 173);
+
+}
+
+
+.submit:hover{
+  color: rgb(12, 7, 7);
+  background-color: rgba(254, 255, 254, 0.993);
+  text-decoration: none;
+  border: 3px solid rgb(7, 6, 6);
+}
+
+/*-----------heder text------------*/
+
+.collge-name{
+  margin: auto;
+  text-align: center;
+  border: 5px solid rgb(212, 195, 173);
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 100px;
+  background-color: rgb(5, 6, 7);
+  padding-bottom: 50px;
+}
+.collge-name h1{
+  color: rgb(255, 253, 253);
+  font-size: 36px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.collge-name p{
+  color: rgb(250, 245, 245);
+font-size: 16px;
+font-weight: 2000;
+}
+.visit-us{
+  margin-left: 650px;
+  margin-top: 80px;
+  
+}
+.visit-btn{
+  color: rgb(248, 246, 246);
+  padding: 8px 15px;
+  text-decoration: none;
+  border: 5px solid rgb(212, 195, 173);
+  background-color: rgb(5, 4, 4);
+  cursor: pointer;
+}
+.visit-btn:hover{
+  background-color: black;
+  border: 0.5px solid rgb(212, 195, 173);
+  color: white;
+  
+}
+
+/* ----------------for responship---------- */
+                 /* do_leter */
+
+/* ----------------course------------ */
+/* -------------------------------------------------------------------------------------------------------------- */
+
+
+.row{
+  margin-top:2%;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+}
+.row h1{
+  font-size: 36px;
+font-weight: 600;
+text-align: center;
+}
+
+
+
+.course{
+  width: 90%;
+
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.course h1{
+  font-size: 50px;
+  font-weight: 600;
+  margin: auto;
+  text-align: center;
+
+}
+.course-1{
+  margin: 10px;
+  background-color: rgb(212, 195, 173);
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition:0.5s;
+}
+.course-1 img{
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+  width: 360px;
+  border: 2PX solid rgb(212, 195, 173);
+
+}
+.course-1:hover{
+  box-shadow: 0px 20px 20px 10px rgb(95, 88, 89);
+  cursor: pointer;
+}
+
+.course-1 p{
+  font-size: 15px;
+font-weight: 300;
+margin-left: 10px;
+}
+
+/* ----------------for responship---------- */
+                 /* do_leter */
+
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+/* -----------------compus------------------ */
+
+
+.cumpas-hader h1{
+  font-size: 36px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 50;
+}
+.cumpas-hader{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.cumpas-name{
+  word-spacing: 500px;
+  margin: auto;
+  text-align: center;
+}
+/*---------------- outomatic shindshoe----------------- */
+.main {
+  display: flex;
+  overflow: hidden;
+  height: 600px;
+  background: #333;
+  margin: 30px 30px;
+  border: 10px solid rgb(212, 195, 173);
+}
+ 
+.main img {
+  max-width: 100%;
+  vertical-align: middle;
+  border: 2px solid white;
+  box-sizing: border-box;
+  transition: opacity .2s;
+}
+ 
+.main:hover img {
+  opacity: 0.5;
+}
+ 
+.main img:hover {
+  opacity: 1;
+}
+ 
+.main .single-column {
+ animation: var(--animation, none) 16s infinite linear;
+}
+ 
+.main .single-column:hover {
+ animation-play-state: paused;
+}
+ 
+.main .single-column:nth-of-type(odd) {
+  align-self: flex-end;
+  --direction: 50%;
+}
+ 
+@keyframes slide {
+  to {
+    -webkit-transform: translateY(var(--direction, -50%));
+            transform: translateY(var(--direction, -50%));
+  }
+}
+
+
+/*------------------ what say our studend------------------------ */
+.say{
+  margin-top: 70px;
+  text-align: center;
+}
+.say h1{
+  font-size: 36px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 50;
+}
+.student-say{
+  display: inline-flex;
+  padding-left: 110px;
+  margin: auto;
+  padding-top: 50px;
+  text-align: center;
+}
+.first-student{
+  height: 250px;
+  width: 500px;
+  margin-left: 100px;
+  width: 500px;
+  margin-right: 100px;
+  padding-left: px;
+  background-color:  rgb(212, 195, 173);
+}
+.first-student img  {
+  height: 80px;
+  width: 80px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+.first-student p{
+  /* display: block; */
+  padding-left: 100px;
+}
+.first-student h3{
+  padding-left: 96px;
+}
+.bis{
+  padding-left: 30px;
+}
+.checked {
+  color:#eb6a20;
+}
+ .paloi{
+  padding-left: 96px;
+ }
+
+ .scoend-student{
+  height: 250px;
+  width: 500px;
+  background-color:  rgb(212, 195, 173);
+  float: left;
+}
+.scoend-student p{
+  margin-top: -84px;
+  padding-left: 97px;
+  display: inline-flex;
+}
+.scoend-student img{
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+.scoend-student h3{
+  padding-left: 76px;
+  margin-bottom: 20px;
+  margin-top: 1px;
+}
+.sharma{
+  padding-left: 76px;
+  
+  
+}
+
+/*-------------------------------- about-us--------------------------------- */
+  
+
+.about-us{
+  margin: 100px auto;
+  width: 80%;
+
+  background-image: linear-gradient(rgba(111, 112, 109, 0.7),rgba(104, 102, 102, 0.7)), url(https://img.collegedekhocdn.com/media/img/institute/crawled_images/None/Screenshot%20-%202020-04-29T155322.287.png?tr=h-400,w-650.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  border-radius: 20px;
+  border: 10px solid rgb(212, 195, 173);
+  padding-bottom: 50px;
+}
+
+.about-us-child h1{
+  
+  color: white;
+  font-weight: 800;
+  font-size: 40;
+}
+
+.about-us-child a{
+  margin-bottom: 10px;
+}
+/*------------------------- content-us-------------------- */
+
+
+.content-us{
+  text-align: center;
+  background-color: rgb(110, 108, 108);
+  color: black;
+}
+.content-us h1{
+  font-weight: 1000;
+font-size: 30;
+}
+
+.social-media-icon{
+  height: 10px;
+  
+  padding: 0 10px;
+  color: #eb6a20;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nilu{
+  margin: auto;
+  text-align: center;
+  color: rgb(12, 10, 10);
+  padding-top: 50px;
+  ;
+}
