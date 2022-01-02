@@ -1,7 +1,8 @@
 
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding-top: 0px;
+    margin-top: -20px;
     /* font-size: url(https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=STIX+Two+Text:ital,wght@0,500;0,600;1,400;1,500&display=swap); */
     /* backgCround-image: url(https://www.pandotrip.com/wp-content/uploads/2018/09/Seigantoji-Pagoda-and-Nachi-Falls-in-Nacho-Japan.jpg); */
     font-family: 'Hahmlet', serif;
@@ -78,7 +79,7 @@ li a:hover::after{
 
 .search{
   padding-top: 8px;
-  padding-right: 100px;
+  padding-right: 150px;
   padding-bottom: 10px;
   font-size: large;
   font-size: 15px;
@@ -348,11 +349,7 @@ margin-left: 10px;
   background-color:  rgb(212, 195, 173);
   float: left;
 }
-.scoend-student p{
-  margin-top: -84px;
-  padding-left: 97px;
-  display: inline-flex;
-}
+
 .scoend-student img{
   float: left;
   margin-left: 10px;
