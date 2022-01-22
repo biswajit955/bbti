@@ -7,6 +7,10 @@ body {
     font-family: 'Hahmlet', serif;
 }
 
+header {
+    padding-top: 1px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -78,12 +82,12 @@ li a:hover::after {
 
 .search {
     padding-top: 8px;
-    padding-right: 110px;
+    padding-right: 150px;
     padding-bottom: 10px;
     font-size: large;
     font-size: 15px;
     border: 3px solid rgb(212, 195, 173);
-    margin-left: 200px;
+    margin-left: 180px;
     display: inline-block;
 }
 
